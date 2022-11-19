@@ -1,3 +1,28 @@
+stuff I did
+===========
+This is an fork from https://github.com/verrio/snmpb. I only edit some files to build this project with debian 11.5.
+No bugfixes from my site!
+
+```
+sudo aptitude install autoconf automake build-essential qtbase5-dev libssl-dev libsmi2-dev libqt5svg5-dev
+git clone https://github.com/some-git-user/snmpb.git
+cd snmpb/
+make
+sudo src/snmpb
+```
+(running ```snmpb``` without sudo getting me an bind error)
+
+Package versions I used:
+
+- autoconf (2.69-14)
+- automake (1:1.16.3-2)
+- build-essential (12.9)
+- qtbase5-dev (5.15.2+dfsg-9)
+- libssl-dev (1.1.1n-0+deb11u3)
+- libsmi2-dev (0.4.8+dfsg2-16)
+- libqt5svg5-dev (5.15.2-3)
+
+
 snmpb client
 ============
 
