@@ -20,8 +20,8 @@
 
 #include <qwidget.h>
 #include <qtabwidget.h>
-#include <qwt6/qwt_plot.h>
-#include <qwt6/qwt_plot_curve.h>
+#include <qwt6/src/qwt_plot.h>
+#include <qwt6/src/qwt_plot_curve.h>
 #include <QTimerEvent>
 #include <qlistwidget.h>
 #include <qlist.h>
